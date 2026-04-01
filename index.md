@@ -5,7 +5,7 @@ title: Logbook
 
 # Internship Logbook – Anna Mestres
 
-This daily logbook documents my internship experience at Lanek in Chile. It is intended to provide a concise record of my day-to-day activities, progress, and learning throughout the internship period. Each entry summarizes the tasks I have completed, any challenges or issues encountered, and the approaches I used to resolve them.
+This daily logbook documents my internship experience at [Lanek](https://www.lanek.cl/) in Chile. It is intended to provide a concise record of my day-to-day activities, progress, and learning throughout the internship period. Each entry summarizes the tasks I have completed, any challenges or issues encountered, and the approaches I used to resolve them.
 
 The purpose of this logbook is to track my professional development, reflect on practical experiences, and maintain a structured overview of my contributions within the organization. It will also serve as supporting documentation for my internship requirements and final evaluation.
 
@@ -13,7 +13,7 @@ The purpose of this logbook is to track my professional development, reflect on 
 
 The internship began with a welcome meeting at 11:00 AM, where I was introduced to the office, team members, workflows, and the current tech stack. I was also given access to the company’s GitHub repositories and communication tools, including the different teams I will collaborate with.
 
-I met with Lucas (Head of Software) to discuss the technical scope of my project. We refined the objectives to better align with the broader system. Afterwards, I conducted initial research and redefined the project scope, focusing on developing a specialized LLM with a RAG pipeline for clinical data in Spanish, including guardrails and simulated patient testing.
+I met with Lucas (Software Engineer) to discuss the technical scope of my project. We refined the objectives to better align with the broader system. Afterwards, I conducted initial research and redefined the project scope, focusing on developing a specialized LLM with a RAG pipeline for clinical data in Spanish, including guardrails and simulated patient testing.
 
 ## Day 2 - 31/03 {#day2}
 
