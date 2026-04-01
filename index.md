@@ -1,11 +1,18 @@
 ---
-layout: home
-title: Home
+layout: logbook
+title: Logbook
 ---
 
-# Anna Mestres – Internship Logbook
+# Internship Logbook – Anna Mestres
 
-Welcome to my daily internship logbook at Lanek.
+## Day 1 {#day1}
 
-- [Day 1](day1)
-- [Day 2](day2)
+Today I started my internship...
+
+## Day 2 {#day2}
+
+Worked on...
+
+## Day 3 {#day3}
+
+...

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <style>
+      body {
+        display: flex;
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      nav {
+        width: 250px;
+        height: 100vh;
+        overflow-y: auto;
+        background: #f4f4f4;
+        padding: 1rem;
+        position: fixed;
+      }
+
+      main {
+        margin-left: 270px;
+        padding: 2rem;
+        max-width: 800px;
+      }
+
+      a {
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <h3>Logbook</h3>
+      <a href="#day1">Day 1</a>
+      <a href="#day2">Day 2</a>
+      <a href="#day3">Day 3</a>
+    </nav>
+
+    <main>{{ content }}</main>
+  </body>
+</html>
