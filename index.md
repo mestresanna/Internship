@@ -11,20 +11,54 @@ This daily logbook documents my internship experience at [Lanek](https://www.lan
 
 The purpose of this logbook is to track my professional development, reflect on practical experiences, and maintain a structured overview of my contributions within the organization. It will also serve as supporting documentation for my internship requirements and final evaluation.
 
-<h2 id="day1">Day 1 — 30/03</h2>
+---
+
+# Week 1
+
+<h2 id="day1">Day 1 - 30/03</h2>
 
 The internship began with a welcome meeting at 11:00 AM, where I was introduced to the office, team members, workflows, and the current tech stack. I was also given access to the company’s GitHub repositories and communication tools, including the different teams I will collaborate with.
 
 I met with Lucas (Software Engineer) to discuss the technical scope of my project. We refined the objectives to better align with the broader system. Afterwards, I conducted initial research and redefined the project scope, focusing on developing a specialized LLM with a RAG pipeline for clinical data in Spanish, including guardrails and simulated patient testing.
 
-<h2 id="day2">Day 2 — 31/03</h2>
+<h2 id="day2">Day 2 - 31/03</h2>
 
 I continued researching the project and had a meeting with Johannes (Head of Technology) to review ideas and direction. Based on this discussion, we decided to start with a minimal viable prototype (MVP) to quickly validate approaches.
 
 I implemented a basic RAG pipeline using synthetic data to test whether the model retrieves information correctly without hallucinating. I also attempted to integrate an interface using OpenWebUI, where I encountered several technical issues.
 
-<h2 id="day3">Day 3 — 01/04</h2>
+<h2 id="day3">Day 3 - 01/04</h2>
 
 Today I resolved the issues with the interface, and the MVP is now functional. After validating this initial approach, I started developing the foundations of the actual project with a more structured setup, connected to the company’s GitHub.
 
 I also continued researching suitable technologies for our use case. In the afternoon, I attended a meeting at 16:00 to receive updates on the client requirements from UC Christus, to ensure that my work aligns with the larger project of the company.
+
+<h2 id="day4">Day 4 - 02/04</h2>
+Today I was introduced to the lab facilities and the ongoing work being carried out there, as well as to the healthcare department collaborating with the lab. I also had the opportunity to assist in some experiments, which provided practical insight into their processes.
+
+Additionally, I attended my first meeting with the project coach based in Belgium via Microsoft Teams. During the day, I was also introduced to new methodologies and technologies relevant to the project.
+
+<h2 id="day5">Day 5 - 02/04</h2>
+Today I received the full set of documentation related to the larger project that my work will contribute to. I focused on understanding the overall scope and structure of the project, identifying key components and objectives.
+
+I also conducted research on technologies and tools that could support development at a larger scale, while noting down technical questions for further clarification.
+
+---
+
+# Week 2
+
+<h2 id="day6">Day 6 - 20/04</h2>
+After the Easter holidays, I resumed work by focusing on the system architecture of the overall project. Using draw.io, I created two initial diagrams: a detailed version outlining the technical components, and a more general one illustrating the core functionality of the application.
+
+These drafts will serve as a foundation for further refinement.
+
+<h2 id="day7">Day 7 - 21/04</h2>
+Today I continued improving the system architecture diagrams, refining both their structure and level of detail. I also carried out additional research on relevant technologies to better support design decisions.
+
+In parallel, I participated in discussions to better define the scope of my project and how it integrates within the broader system.
+
+<h2 id="day8">Day 8 - 22/04</h2>
+
+<h2 id="day9">Day 9 - 23/04</h2>
+
+<h2 id="day10">Day 10 - 24/04</h2>
