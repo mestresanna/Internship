@@ -38,7 +38,7 @@ Today I was introduced to the lab facilities and the ongoing work being carried 
 
 Additionally, I attended my first meeting with the project coach based in Belgium via Microsoft Teams. During the day, I was also introduced to new methodologies and technologies relevant to the project.
 
-<h2 id="day5">Day 5 - 02/04</h2>
+<h2 id="day5">Day 5 - 03/04</h2>
 Today I received the full set of documentation related to the larger project that my work will contribute to. I focused on understanding the overall scope and structure of the project, identifying key components and objectives.
 
 I also conducted research on technologies and tools that could support development at a larger scale, while noting down technical questions for further clarification.
@@ -58,6 +58,11 @@ Today I continued improving the system architecture diagrams, refining both thei
 In parallel, I participated in discussions to better define the scope of my project and how it integrates within the broader system.
 
 <h2 id="day8">Day 8 - 22/04</h2>
+Today we held several meetings to define the scope of the MVP for the project I will be developing. The definition is still in progress and is expected to be finalized tomorrow after additional discussions with members of the development team.
+
+In parallel, I worked on creating a synthetic dataset to simulate hospital data, as we determined that obtaining real data from the client within the available timeframe would not be feasible. This dataset will be used for initial development and testing.
+
+The next step will be to integrate this simulated data with the RAG prototype developed last week.
 
 <h2 id="day9">Day 9 - 23/04</h2>
 
