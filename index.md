@@ -65,5 +65,16 @@ In parallel, I worked on creating a synthetic dataset to simulate hospital data,
 The next step will be to integrate this simulated data with the RAG prototype developed last week.
 
 <h2 id="day9">Day 9 - 23/04</h2>
+Today I focused on rewriting the documentation for the MVP and refining the overall planning based on the latest decisions. I also began working on integrating the database into the system.
+
+In addition, I improved parts of the synthetic dataset to make it more robust and realistic, ensuring better performance and reliability of the RAG pipeline.
 
 <h2 id="day10">Day 10 - 24/04</h2>
+
+Today I completed the integration of the database with the RAG pipeline and began testing it through the interface using OpenWebUI to ensure compatibility.
+
+During testing, I encountered some challenges related to converting database content into a format that is easily interpretable by the LLM. Addressing these issues is necessary to improve the readability and overall performance of the system.
+
+---
+
+# Week 3
