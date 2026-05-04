@@ -78,3 +78,45 @@ During testing, I encountered some challenges related to converting database con
 ---
 
 # Week 3
+
+<h2 id="day11">Day 11 - 27/04</h2>
+
+Today I focused on thoroughly testing the RAG pipeline to identify potential issues. While the overall workflow is functional, it still lacks a more robust implementation.
+
+I began addressing this by improving the database structure to make it more realistic. I also fixed several bugs related to the database and its automatic generation process.
+
+<h2 id="day12">Day 12 - 28/04</h2>
+
+In the morning, I had a meeting with my tutor to review progress. Afterwards, I continued working on the RAG pipeline, improving the document chunking strategy to enhance retrieval quality.
+
+I developed initial test cases and began implementing the query-response functionality as part of the system.
+
+<h2 id="day13">Day 13 - 29/04</h2>
+
+Today I continued developing the query-response functionality. During this process, I identified issues in the database related to semantic inconsistencies between tables.
+
+I resolved these issues and created updated diagrams along with detailed documentation describing each table, ensuring better clarity and maintainability of the system.
+
+<h2 id="day14">Day 14 - 30/04</h2>
+
+I completed and tested the query-response functionality, which is now working correctly. However, the RAG pipeline still requires improvements, particularly in the use of filters and the retrieval process, which remains relatively basic.
+
+I started refining the retriever and context generation to improve the accuracy of responses. The next steps will include further optimization and implementing latency control mechanisms.
+
+<h2 id="day15">Day 15 - 01/05</h2>
+
+Festivity
+
+---
+
+# Week 4
+
+<h2 id="day16">Day 16 - 04/05</h2>
+
+<h2 id="day17">Day 17 - 05/05</h2>
+
+<h2 id="day18">Day 18 - 06/05</h2>
+
+<h2 id="day19">Day 19 - 07/05</h2>
+
+<h2 id="day20">Day 20 - 08/05</h2>
