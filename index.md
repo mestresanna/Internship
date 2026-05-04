@@ -112,6 +112,7 @@ Festivity
 # Week 4
 
 <h2 id="day16">Day 16 - 04/05</h2>
+I refactored the RAG pipeline into a clean, modular architecture separating retrieval, context building, filtering, and reranking into dedicated services. On top of that, I introduced a cohort-based scoring system that ranks similar patients using weighted signals (diagnosis, recency, severity, and semantic similarity) to generate aggregated clinical evidence from historical cases.
 
 <h2 id="day17">Day 17 - 05/05</h2>
 
