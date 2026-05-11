@@ -115,9 +115,35 @@ Festivity
 I refactored the RAG pipeline into a clean, modular architecture separating retrieval, context building, filtering, and reranking into dedicated services. On top of that, I introduced a cohort-based scoring system that ranks similar patients using weighted signals (diagnosis, recency, severity, and semantic similarity) to generate aggregated clinical evidence from historical cases.
 
 <h2 id="day17">Day 17 - 05/05</h2>
+Today I tested all the outputs from the work completed the previous day. I also switched to testing the API directly through the terminal to simplify debugging and validation.
+
+In addition, I improved the cohort implementation so the LLM can generate more coherent and contextually accurate responses.
 
 <h2 id="day18">Day 18 - 06/05</h2>
+Today I continued improving the RAG responses by refining the cohort implementation. During testing, I discovered a bug in the dataset related to the AI alert system.
+
+After fixing the issue, the overall quality of the responses and the reasoning process of the RAG improved significantly.
 
 <h2 id="day19">Day 19 - 07/05</h2>
+Today I started working on the event-driven system using RabbitMQ deployed as a container.
+
+I researched the best approach for integrating events into the current architecture, as the ingestion pipeline was still being triggered manually and reprocessing all chunks each time. I realized that the codebase required refactoring and that additional metadata needed to be introduced for the chunks in order to support selective updates instead of rebuilding the entire dataset.
 
 <h2 id="day20">Day 20 - 08/05</h2>
+Today I refactored part of the codebase to introduce a more scalable structure using a hexagonal architecture approach, improving maintainability and future extensibility.
+
+To support the new event-driven workflow, I also redesigned the chunking strategy so that only specific sections of the vector database need to be updated instead of rebuilding the entire Vector DB after each change.
+
+---
+
+# Week 5
+
+<h2 id="day21">Day 21 - 11/05</h2>
+
+<h2 id="day22">Day 22 - 12/05</h2>
+
+<h2 id="day23">Day 23 - 13/05</h2>
+
+<h2 id="day24">Day 24 - 14/05</h2>
+
+<h2 id="day25">Day 25 - 15/05</h2>
