@@ -139,11 +139,31 @@ To support the new event-driven workflow, I also redesigned the chunking strateg
 # Week 5
 
 <h2 id="day21">Day 21 - 11/05</h2>
+Today I worked on implementing event-based updates for diagnostics using RabbitMQ as the communication bus between services. I also created repository layers connected directly to the database API in order to manage and synchronize updates more efficiently.
 
 <h2 id="day22">Day 22 - 12/05</h2>
+I focused on debugging and resolving issues introduced during the recent refactoring process. Most of the work was related to ensuring the correct ingestion of data from the main database into the vector database, as well as stabilizing the event injection workflow.
 
 <h2 id="day23">Day 23 - 13/05</h2>
+I fixed several inconsistencies related to naming conventions across the project. In addition, I continued debugging the quality of the RAG responses and implemented a query planning mechanism to improve retrieval quality and generate more accurate answers.
 
 <h2 id="day24">Day 24 - 14/05</h2>
+Today I continued refactoring the system into a hexagonal architecture integrated with events. I also improved the prompt workflow by automatically identifying patient IDs and names directly through the prompt context, removing the need to manually parse this information in API requests.
 
 <h2 id="day25">Day 25 - 15/05</h2>
+I implemented update events for visits, treatments, and diagnostics. Additionally, I reorganized the architecture domains to improve retrieval consistency and maintain proper dependency separation between components. This required refactoring the chunk builders so they correctly adapt to the new domain structure. By the end of the day, the migration to the hexagonal architecture was completed.
+
+---
+
+# Week 6
+
+<h2 id="day26">Day 26 - 18/05</h2>
+Today I fixed several smaller bugs and completed the remaining update events before starting the implementation of create events. I also resolved issues affecting the RAG responses, including problems that were causing hallucinations and empty outputs even when the relevant information was already available in the system.
+
+<h2 id="day27">Day 27 - 19/05</h2>
+
+<h2 id="day28">Day 28 - 20/05</h2>
+
+<h2 id="day29">Day 29 - 21/05</h2>
+
+<h2 id="day30">Day 30 - 22/05</h2>
