@@ -161,6 +161,7 @@ I implemented update events for visits, treatments, and diagnostics. Additionall
 Today I fixed several smaller bugs and completed the remaining update events before starting the implementation of create events. I also resolved issues affecting the RAG responses, including problems that were causing hallucinations and empty outputs even when the relevant information was already available in the system.
 
 <h2 id="day27">Day 27 - 19/05</h2>
+Check and correct the connection with the database through all the app for dependency injection instead of a singleton. Create all the needed create events for the domain. Start implementing the basics of the heurestic risk classification model.
 
 <h2 id="day28">Day 28 - 20/05</h2>
 
