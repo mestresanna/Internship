@@ -161,10 +161,12 @@ I implemented update events for visits, treatments, and diagnostics. Additionall
 Today I fixed several smaller bugs and completed the remaining update events before starting the implementation of create events. I also resolved issues affecting the RAG responses, including problems that were causing hallucinations and empty outputs even when the relevant information was already available in the system.
 
 <h2 id="day27">Day 27 - 19/05</h2>
-Check and correct the connection with the database through all the app for dependency injection instead of a singleton. Create all the needed create events for the domain. Start implementing the basics of the heurestic risk classification model.
+Check and correct the connection with the database through all the app for dependency injection instead of a singleton. I started on implemente the events needed to create all the entities of domain and create the chunks in the vector DB automatically so RAG can use the proper context.
 
 <h2 id="day28">Day 28 - 20/05</h2>
+Today I completed the implementation of create events for all the relevant entities in the system. I also conducted thorough testing to ensure that the event-driven architecture is functioning correctly and that all components are properly integrated. Additionally, I started working on improving the documentation to reflect the recent changes in the architecture and workflow.
 
 <h2 id="day29">Day 29 - 21/05</h2>
+Today I focused on optimizing the RAG pipeline by implementing more efficient retrieval strategies and improving the scoring mechanism for the cohort-based approach. I also worked on enhancing the documentation to provide clearer explanations of the system architecture and the event-driven workflow, ensuring that it is easier for future developers to understand and maintain the codebase. I also fixed some minor bugs related to the event handling and data synchronization between the main database and the vector database.
 
 <h2 id="day30">Day 30 - 22/05</h2>
