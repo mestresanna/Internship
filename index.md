@@ -170,3 +170,22 @@ Today I completed the implementation of create events for all the relevant entit
 Today I focused on optimizing the RAG pipeline by implementing more efficient retrieval strategies and improving the scoring mechanism for the cohort-based approach. I also worked on enhancing the documentation to provide clearer explanations of the system architecture and the event-driven workflow, ensuring that it is easier for future developers to understand and maintain the codebase. I also fixed some minor bugs related to the event handling and data synchronization between the main database and the vector database.
 
 <h2 id="day30">Day 30 - 22/05</h2>
+Today I introduce the heuristic model to retrieve the risk of theh patient based on the information available in the system. This model uses a set of predefined rules and thresholds to assess the patient's condition and provide a risk score that can be used to prioritize cases and guide clinical decision-making.
+
+---
+
+# Week 7
+
+<h2 id="day31">Day 31 - 25/05</h2>
+Today I started working on the interface of the UI, implementing the necessary components to display the RAG responses in a user-friendly manner. And an overall funcionalities that the application could offer, to be able to show it to the customer on Thursday. Additionally, I continued testing the system to identify any remaining issues and ensure that all components are functioning correctly.
+
+<h2 id="day32">Day 32 - 26/05</h2>
+I connected properly the UI with the backend API, allowing for real-time interaction and retrieval of RAG responses. I implement websockets to enable dynamic updates to enable the alerts of the risk of the patients displayed in the UI.
+
+<h2 id="day33">Day 33 - 27/05</h2>
+I kept connecting the UI with the backend, improving the user experience and ensuring that all functionalities are working as expected. I also prepared a demo to showcase the progress of the project to the customer, highlighting the key features and improvements made during the internship.
+
+<h2 id="day34">Day 34 - 28/05</h2>
+We presented the demo to the customer, demonstrating the functionality of the RAG pipeline and the user interface. The feedback received was positive, with some suggestions for further improvements and additional features that could be implemented in the future. I kept on working in a few bugs that were found after the demo and started preparing the final report and presentation for the internship evaluation.
+
+<h2 id="day35">Day 35 - 29/05</h2>
