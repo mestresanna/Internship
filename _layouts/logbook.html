@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
 
     <style>
@@ -20,43 +20,53 @@
       body {
         margin: 0;
         font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          -apple-system, blinkmacsystemfont, "segoe ui", roboto, sans-serif;
         background: var(--bg);
         color: var(--text);
         display: flex;
       }
-
-      /* Sidebar */
       nav {
-        width: 260px;
+        width: 220px;
         height: 100vh;
         position: fixed;
+        top: 0;
+        left: 0;
+
         background: var(--sidebar);
-        padding: 1.5rem;
+        padding: 1rem;
         border-right: 1px solid #1f2933;
+
+        overflow-y: auto;
+        overflow-x: hidden;
       }
 
       nav h3 {
-        margin-top: 0;
-        font-size: 1.2rem;
+        position: sticky;
+        top: -1rem;
+        background: var(--sidebar);
+        margin: 0 0 1rem;
+        padding: 0.75rem 0;
+        z-index: 10;
       }
 
       nav h4 {
         color: var(--muted);
-        margin-top: 2rem;
-        margin-bottom: 0.5rem;
-        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+        font-size: 0.75rem;
         text-transform: uppercase;
+        letter-spacing: 0.05em;
       }
 
       nav a {
         display: block;
-        padding: 6px 8px;
-        margin: 4px 0;
+        padding: 4px 6px;
+        margin: 1px 0;
         color: var(--muted);
         text-decoration: none;
-        border-radius: 6px;
-        font-size: 0.95rem;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        line-height: 1.3;
       }
 
       nav a:hover {
@@ -64,9 +74,8 @@
         color: white;
       }
 
-      /* Content */
       main {
-        margin-left: 260px;
+        margin-left: 220px;
         padding: 3rem;
         max-width: 900px;
       }
@@ -102,7 +111,7 @@
         text-decoration: underline;
       }
 
-      /* Smooth scroll */
+      /* smooth scroll */
       html {
         scroll-behavior: smooth;
       }
@@ -111,63 +120,63 @@
 
   <body>
     <nav>
-      <h3>📘 Logbook</h3>
+      <h3>📘 logbook</h3>
 
-      <h4>Week 1</h4>
-      <a href="#day1">Day 1 — 30/03</a>
-      <a href="#day2">Day 2 — 31/03</a>
-      <a href="#day3">Day 3 — 01/04</a>
-      <a href="#day4">Day 4 — 02/04</a>
-      <a href="#day5">Day 5 — 03/04</a>
+      <h4>week 1</h4>
+      <a href="#day1">day 1 — 30/03</a>
+      <a href="#day2">day 2 — 31/03</a>
+      <a href="#day3">day 3 — 01/04</a>
+      <a href="#day4">day 4 — 02/04</a>
+      <a href="#day5">day 5 — 03/04</a>
 
-      <h4>Week 2</h4>
-      <a href="#day6">Day 6 — 20/04</a>
-      <a href="#day7">Day 7 — 21/04</a>
-      <a href="#day8">Day 8 — 22/04</a>
-      <a href="#day9">Day 9 — 23/04</a>
-      <a href="#day10">Day 10 — 24/04</a>
+      <h4>week 2</h4>
+      <a href="#day6">day 6 — 20/04</a>
+      <a href="#day7">day 7 — 21/04</a>
+      <a href="#day8">day 8 — 22/04</a>
+      <a href="#day9">day 9 — 23/04</a>
+      <a href="#day10">day 10 — 24/04</a>
 
-      <h4>Week 3</h4>
-      <a href="#day11">Day 11 — 27/04</a>
-      <a href="#day12">Day 12 — 28/04</a>
-      <a href="#day13">Day 13 — 29/04</a>
-      <a href="#day14">Day 14 — 30/04</a>
-      <a href="#day15">Day 15 — 01/05</a>
+      <h4>week 3</h4>
+      <a href="#day11">day 11 — 27/04</a>
+      <a href="#day12">day 12 — 28/04</a>
+      <a href="#day13">day 13 — 29/04</a>
+      <a href="#day14">day 14 — 30/04</a>
+      <a href="#day15">day 15 — 01/05</a>
 
-      <h4>Week 4</h4>
-      <a href="#day16">Day 16 — 04/05</a>
-      <a href="#day17">Day 17 — 05/05</a>
-      <a href="#day18">Day 18 — 06/05</a>
-      <a href="#day19">Day 19 — 07/05</a>
-      <a href="#day20">Day 20 — 08/05</a>
+      <h4>week 4</h4>
+      <a href="#day16">day 16 — 04/05</a>
+      <a href="#day17">day 17 — 05/05</a>
+      <a href="#day18">day 18 — 06/05</a>
+      <a href="#day19">day 19 — 07/05</a>
+      <a href="#day20">day 20 — 08/05</a>
 
-      <h4>Week 5</h4>
-      <a href="#day21">Day 21 — 11/05</a>
-      <a href="#day22">Day 22 — 12/05</a>
-      <a href="#day23">Day 23 — 13/05</a>
-      <a href="#day24">Day 24 — 14/05</a>
-      <a href="#day25">Day 25 — 15/05</a>
+      <h4>week 5</h4>
+      <a href="#day21">day 21 — 11/05</a>
+      <a href="#day22">day 22 — 12/05</a>
+      <a href="#day23">day 23 — 13/05</a>
+      <a href="#day24">day 24 — 14/05</a>
+      <a href="#day25">day 25 — 15/05</a>
 
-      <h4>Week 6</h4>
-      <a href="#day26">Day 26 — 18/05</a>
-      <a href="#day27">Day 27 — 19/05</a>
-      <a href="#day28">Day 28 — 20/05</a>
-      <a href="#day29">Day 29 — 21/05</a>
-      <a href="#day30">Day 30 — 22/05</a>
+      <h4>week 6</h4>
+      <a href="#day26">day 26 — 18/05</a>
+      <a href="#day27">day 27 — 19/05</a>
+      <a href="#day28">day 28 — 20/05</a>
+      <a href="#day29">day 29 — 21/05</a>
+      <a href="#day30">day 30 — 22/05</a>
 
-      <h4>Week 7</h4>
-      <a href="#day31">Day 31 — 25/05</a>
-      <a href="#day32">Day 32 — 26/05</a>
-      <a href="#day33">Day 33 — 27/05</a>
-      <a href="#day34">Day 34 — 28/05</a>
-      <a href="#day35">Day 35 — 29/05</a>
+      <h4>week 7</h4>
+      <a href="#day31">day 31 — 25/05</a>
+      <a href="#day32">day 32 — 26/05</a>
+      <a href="#day33">day 33 — 27/05</a>
+      <a href="#day34">day 34 — 28/05</a>
+      <a href="#day35">day 35 — 29/05</a>
 
-      <h4>Week 8</h4>
-      <a href="#day36">Day 36 — 25/05</a>
-      <a href="#day37">Day 37 — 26/05</a>
-      <a href="#day38">Day 38 — 27/05</a>
-      <a href="#day39">Day 39 — 28/05</a>
-      <a href="#day40">Day 40 — 29/05</a>
+      <h4>week 8</h4>
+      <a href="#day36">day 36 — 25/05</a>
+      <a href="#day37">day 37 — 26/05</a>
+      <a href="#day38">day 38 — 27/05</a>
+      <a href="#day39">day 39 — 28/05</a>
+      <a href="#day40">day 40 — 29/05</a>
     </nav>
 
     <main>{{ content }}</main>
