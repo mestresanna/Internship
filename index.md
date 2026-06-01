@@ -189,3 +189,18 @@ I kept connecting the UI with the backend, improving the user experience and ens
 We presented the demo to the customer, demonstrating the functionality of the RAG pipeline and the user interface. The feedback received was positive, with some suggestions for further improvements and additional features that could be implemented in the future. I kept on working in a few bugs that were found after the demo and started preparing the final report and presentation for the internship evaluation.
 
 <h2 id="day35">Day 35 - 29/05</h2>
+We conducted the last visit with the intership supervisor and we discussed the overall progress of the project and shown the demo. I finish fetching the doctors and the patients with the backend and the frontend so the system is fully functional, without mockup data.
+
+---
+
+# Week 8
+
+<h2 id="day36">Day 36 - 01/06</h2>
+
+<h2 id="day37">Day 37 - 02/06</h2>
+
+<h2 id="day38">Day 38 - 03/06</h2>
+
+<h2 id="day39">Day 39 - 04/06</h2>
+
+<h2 id="day40">Day 40 - 05/06</h2>
