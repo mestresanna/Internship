@@ -197,10 +197,20 @@ We conducted the last visit with the intership supervisor and we discussed the o
 
 <h2 id="day36">Day 36 - 01/06</h2>
 
+Today I focused on cleaning and reorganizing the codebase to improve readability and maintainability. I reviewed the implementation of the hexagonal architecture to ensure that dependencies and responsibilities were correctly separated, and I reorganized several classes into a clearer folder structure. I also continued working on the project documentation to facilitate the handover to the next developer.
+
 <h2 id="day37">Day 37 - 02/06</h2>
+
+I fixed the CI/CD pipelines for both the frontend and backend to ensure a reliable deployment process. Additionally, I spent time explaining the project structure and core functionality to the developer who will continue the work after my internship, providing an overview of the architecture and development workflow.
 
 <h2 id="day38">Day 38 - 03/06</h2>
 
+Today I resolved several minor bugs to ensure the project was ready for handover and completed the remaining technical documentation. I also started preparing the final presentation, organizing the main achievements and technical decisions made throughout the internship.
+
 <h2 id="day39">Day 39 - 04/06</h2>
 
+I began working on the evaluation report for the RAG pipeline, analyzing its performance and documenting the obtained results. During this process, I implemented a few final improvements to increase the quality and consistency of the generated responses.
+
 <h2 id="day40">Day 40 - 05/06</h2>
+
+On my final day, I completed the remaining documentation and performed the last round of testing to verify that the system was functioning correctly. I finalized the project handover and ensured that the codebase and documentation were ready for future development and maintenance.
